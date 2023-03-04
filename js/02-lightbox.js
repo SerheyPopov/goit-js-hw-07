@@ -16,11 +16,7 @@ function createMarkup() {
 		.join("");
 }
 
-function instalSimpleLightBox() {
-	const lightbox = new SimpleLightbox(".gallery .gallery__item", {
-		captionsData: "alt",
-		captionDelay: 250,
-	});
-}
-
-instalSimpleLightBox();
+ new SimpleLightbox(".gallery .gallery__item", {
+	captionsData: "alt",
+	captionDelay: 250,
+});
